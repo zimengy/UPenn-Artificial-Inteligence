@@ -1,0 +1,6 @@
+The first one - the function that uses "extend" is faster.
+
+Because everytime using "extend", the new lists are added to the original list.
+But if using "+", it creates a new list and assigns it to l.
+
+Thus "extend" is faster.

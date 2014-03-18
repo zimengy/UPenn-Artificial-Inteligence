@@ -1,0 +1,7 @@
+Because the function isSolvable(board) may alter the input board, when the code executes 
+if isSolvable(board):
+the board may have been changed.
+Thus it will be pointless to test the possible values on a changing board.
+The code of the function will not work.
+
+ 

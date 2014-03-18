@@ -1,0 +1,3 @@
+Python is dynamically typed because the names in Python do not have an intrinsic type. Python determines the type automatically based on what data is assigned to it.
+It is strongly typed because the objects have fixed types. It will not change.
+

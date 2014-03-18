@@ -1,0 +1,7 @@
+This is because list is mutable, so it can not be the key of dictionary.
+We can use a tuple instead.
+So the code becomes:
+
+thoughtOfString={}
+sounds=('bark!','meow!','neigh!')
+thoughtOfString[sounds]='quack!'

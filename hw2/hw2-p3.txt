@@ -1,0 +1,5 @@
+When w=1, this is complete. To be optimal, w<=1.
+
+When w=0, this performs uniform-cost-search. 
+When w=1, this performs A* search. 
+When w=2, it performs greedy best-first search. 

@@ -1,0 +1,20 @@
+1.
+3.6(a) 
+
+Solution:
+
+The initial state is a map that has not been colored.
+The goal state is a map that all the regions have been colored with four colors and no adjacent regions have the same color.
+To transition between states, pick one region that has not been colored and color it with a color that is not the same with its adjacent regions' color. If its adjacent regions have not been colored, pick one of the four colors.
+From the initial state, there are many sequence of actions that can color the map to different reachable states. Some or all of the regions have been colored and no adjacent regions have the same color. The set of all these states reachable by any sequence of actions is the state space.
+
+ 
+3.6(d) 
+
+Solution:
+
+The initial state is three empty jugs.
+The goal state is one gallon of water in one of the three jugs.
+To transition between states, you can fill one of the jugs up or empty one of the jugs out onto the ground or empty one of the jugs to another jug.
+The state space is all the states where three jugs have some volunme of water or no water, reachable by any of the sequence of actions.
+

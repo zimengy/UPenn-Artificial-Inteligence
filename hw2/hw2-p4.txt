@@ -1,0 +1,14 @@
+The demo of the 8-puzzle is in hw2-p4.py
+
+I implemented a Problem class and a Node class. And the method childNode(node, action) is to find the children of one node given different actions. The method solution(node, sol, num) is used to find the solution path given the goal state. The method RecursiveDLS(node, problem, limit) is used to do depth limited search. 
+
+
+To run the demo, find the "main" function at the bottom, the "initial" list is the initial state represented row by row. And the "goal" list is the goal state represented row by row.
+For example, if the goal state is 
+0  1  2
+3  4  5
+6  7  8
+So goal = [0,1,2,3,4,5,6,7,8].
+You can replace "initial" or "goal" to run the demo. It will print out the initial state, the transitions and the solved puzzle in 3*3 form.
+
+

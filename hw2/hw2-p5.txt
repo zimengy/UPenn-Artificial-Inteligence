@@ -1,0 +1,26 @@
+
+Here are the answers for (a)(b)(c):
+
+(a) There are infinite states. And infinite paths between any two points.
+
+(b) If the robot want to go from one vertex A to another vertex B, the straight line AB is blocked by another polygon with a vertex C. If the path from A to B is through another point D, we can verify that AD+BD>AC+BC, by the fact that the sum of two sides in a triangle is greater than third side.
+So the shortest path must consist of straight line segments joining some of the vertices.
+
+This time the state space does not contain infinite states. It should be consist of the initial state, the goal state, and the states when the robot is at any vertex of the polygons. The number of states should be the total number of vertice plus the initial and the goal state.
+
+(c) The successors of the a state is any other vertice(including the goal) that could be connected without intersecting other line segments.
+
+(d) The code for this question is in the "hw2-p5" folder:
+breadth-first search: hw2-p5-BFS.py
+depth-first search: hw2-p5-DFS.py
+A* search: hw2-p5-AStar.py
+
+To run each of the files, find "main" at the bottom, you can set the variable "example" to 1, 2, 3, or 4, to test "big_triangles", "square_in_the_middle", "triangle_in_the_middle", or "tall_triangle_in_the_middle". The output includes the path representing by a sequence of tuples for each point being visited, the length of the path, and the visualizaion.
+
+The code also deals with the situations when two polygons share a vertex or one vertex of a polygon is on the line segment of another polygon.
+
+
+
+  
+
+
